@@ -1,17 +1,13 @@
 {
-  "name": "queue-component",
+  "name": "component-queue",
+  "description": "function job queue with concurrency and timeout support",
   "version": "1.0.5",
-  "devDependencies": {
-    "should": "~1.2.2",
-    "mocha": "~1.9.0",
-    "superagent": "~0.14.2"
-  },
+  "keywords": [
+    "queue"
+  ],
+  "main": "index.js",
   "dependencies": {
-    "emitter-component": "*"
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git"
   },
-  "component": {
-    "scripts": {
-      "queue/index.js": "index.js"
-    }
-  }
+  "license": "MIT"
 }
